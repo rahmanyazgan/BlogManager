@@ -34,8 +34,8 @@ public class DatabaseOperations {
 
     public DatabaseOperations() {
         this.databaseURL = "jdbc:mysql://localhost:3306/blog";
-        this.userName = "javaci";
-        this.password = "1234";
+        this.userName = "root";
+        this.password = "";
     }
 
     public DatabaseOperations(String userName, String password, String tableName, String url) {
