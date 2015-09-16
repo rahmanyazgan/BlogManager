@@ -33,7 +33,7 @@ public class DatabaseOperations {
     private ResultSet resultSet;
 
     public DatabaseOperations() {
-        this.databaseURL = "jdbc:mysql://localhost:3306/blog";
+        this.databaseURL = "jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf8";
         this.userName = "root";
         this.password = "";
     }
